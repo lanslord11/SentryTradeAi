@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "sqlite": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-sqlite",
+        "--db-path",
+        "/home/piyushyadav/projects/sentry_trade/data/sentry_trade.db"
+      ]
+    },
+    "google-sheets": {
+      "command": "uvx",
+      "args": [
+        "mcp-google-sheets"
+      ],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "/home/piyushyadav/.config/google/service-account.json"
+      }
+    }
+  }
+}

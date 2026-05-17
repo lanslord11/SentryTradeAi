@@ -1,0 +1,13 @@
+langchain
+langgraph
+langchain-google-genai
+yfinance
+duckduckgo-search
+streamlit
+pandas
+python-dotenv
+fastapi
+uvicorn
+crewai
+crewai-tools
+langchain-ollama>=0.1.0
